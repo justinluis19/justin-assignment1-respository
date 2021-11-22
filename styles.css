@@ -28,27 +28,41 @@ body{
     text-align: left;
     font-size: 25px;
   }
-  .topnav {
+  header {
     overflow: hidden;
     background-color: blanchedalmond;
-    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
   }
+
   
-  .topnav a {
-    float: left;
+  
+  header a {
     color: pink;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
+
+  .rightNav a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .rightNav a:active {
+    background-color: white;
+    color: pink;
+  }
   
-  .topnav a:hover {
+  header a:hover {
     background-color: black;
     color: white;
   }
   
-  .topnav a.active {
+  header a:active {
     background-color: white;
     color: pink;
   }

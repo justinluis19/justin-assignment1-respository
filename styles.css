@@ -53,7 +53,10 @@ body{
     color: pink;
   }
   
-  
+  .slideimg{
+    width: 1000px;
+    height: 600px;
+  }
   
   
   /* Slideshow container */

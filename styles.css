@@ -1,5 +1,10 @@
 body{
-    background-color: pink
+  background-image:url('clouds-anime.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
   }
   
   .img{

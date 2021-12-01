@@ -7,6 +7,22 @@ body{
   width:100%;
   }
 
+h1{
+  font-family: 'Playfair Display', serif;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+}
+
 .songlist{
   font-size: 25px;
 }

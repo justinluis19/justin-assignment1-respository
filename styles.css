@@ -34,10 +34,7 @@ body{
     list-style-position: inside;
   }
 
- 
-  
 
-  
   .flex-container{
     display: flex;
     flex-direction: row-reverse;

@@ -1,194 +1,4 @@
-body{
-  background-image:url('assignment1pics/clouds-anime.gif');
-  background-size:100%;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-  height:100%;
-  width:100%;
-  }
-
-h1{
-  font-family: 'Playfair Display', serif;
-}
-
-h2{
-  font-family: 'Playfair Display', serif;
-}
-
-p{
-  font-family: 'Playfair Display', serif;
-}
-
-li{
-  font-family: 'Playfair Display', serif;
-}
-
-.songlist{
-  font-size: 25px;
-}
-  
-  .img{
-    max-width: 100%;
-    height: auto;
-  }
-
-  .profilepic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-  .albumpic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .songlist{
-    text-align: center;
-    list-style-position: inside;
-  }
-
-
-  .flex-container{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center
-  }
-  
-  .flex-item {
-    background-color: skyblue;
-    margin: 30px;
-    padding: 40px;
-    font-size: 30px;
-  }
-  
-  .info{
-    text-align: left;
-    font-size: 25px;
-  }
-  
-  .profile{
-    text-align: left;
-    font-size: 25px;
-  }
-
-  header {
-    overflow: hidden;
-    background-color: blanchedalmond;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-  }
-
-  .formpic{
-    height: 400px;
-    width: 400px;
-    padding-left: 20px;
-  }
-
-  
-  
-  header a {
-    color: #FCB130;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  .rightNav a:hover {
-    background-color: pink;
-    color: white;
-    
-    
-  }
-
-  .rightNav a:active {
-    background-color: white;
-    color: pink;
-  }
-  
-  header a:hover {
-    background-color: pink;
-    color: white;
-  }
-  
-  header a:active {
-    background-color: white;
-    color: pink;
-  }
-
-  
-  .slideimg{
-    width: 1000px;
-    height: 600px;
-  }
-  
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: pink;
-    
-  }
-  
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -198,7 +8,7 @@ li{
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -537,3 +347,204 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+body{
+  background-image:url('assignment1pics/clouds-anime.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+  }
+
+h1{
+  font-family: 'Playfair Display', serif;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+}
+
+.songlist{
+  font-size: 25px;
+}
+  
+  .img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .albumpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .songlist{
+    text-align: center;
+    list-style-position: inside;
+  }
+
+
+  .flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+  }
+  
+  .flex-item {
+    background-color: skyblue;
+    margin: 30px;
+    padding: 40px;
+    font-size: 30px;
+  }
+  
+  .info{
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .profile{
+    text-align: left;
+    font-size: 25px;
+  }
+
+  header {
+    overflow: hidden;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .formpic{
+    height: 400px;
+    width: 400px;
+    padding-left: 20px;
+  }
+
+  
+  
+  header a {
+    color: #FCB130;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .rightNav a:hover {
+    background-color: pink;
+    color: white;
+    
+    
+  }
+
+  .rightNav a:active {
+    background-color: white;
+    color: pink;
+  }
+  
+  header a:hover {
+    background-color: pink;
+    color: white;
+  }
+  
+  header a:active {
+    background-color: white;
+    color: pink;
+  }
+
+  button{
+    background-color: pink;
+    border-style: groove;
+  }
+
+  
+  .slideimg{
+    width: 1000px;
+    height: 600px;
+  }
+  
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: pink;
+    
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  
+
+
+ 

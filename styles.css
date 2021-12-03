@@ -73,6 +73,7 @@ li{
     text-align: left;
     font-size: 25px;
   }
+
   header {
     overflow: hidden;
     background-color: blanchedalmond;
@@ -80,6 +81,12 @@ li{
     align-items: center;
     justify-content: space-between;
 
+  }
+
+  .formpic{
+    height: 400px;
+    width: 400px;
+    padding-left: 20px;
   }
 
   
@@ -95,6 +102,8 @@ li{
   .rightNav a:hover {
     background-color: pink;
     color: white;
+    
+    
   }
 
   .rightNav a:active {
@@ -156,6 +165,7 @@ li{
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: pink;
+    
   }
   
   
@@ -176,6 +186,7 @@ li{
     from {opacity: .4}
     to {opacity: 1}
   }
+
 
   /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 

@@ -5,7 +5,7 @@ Fromis_9 Profile
 
 This website shows what Fromis_9 has to offer to the people who wants to learn more about Fromis_9 or to become a flover (Fandom Name).
 
-This website is all about promoting Fromis_9 is a more simple way so that new fans can easily open this website and learn all their names in one go without having to go.
+This website is all about promoting Fromis_9 is a more simple way so that new fans can easily open this website and learn all their names in one go.
 Other that that, this all-in-one website showcases the different albums that they have released up to 3/12/2021 so for all the new fans that want to know more about their music, this is the website to go to! Along with their music videos, this website also showcases their performances and a lyric video for those who want to learn how to sing or what the song means.
 
 The final page for this website will ask the user what their favourite member is after going through the website.
